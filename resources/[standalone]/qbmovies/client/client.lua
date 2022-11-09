@@ -197,9 +197,9 @@ Citizen.CreateThread(function()
         else
             SetEntityVisible(PlayerPedId(-1), true)
             SetPlayerInvincible(PlayerId(), false)
+            Citizen.Wait(0)
             SetEntityVisible(PlayerPedId(-1), true)
             SetPlayerInvincible(PlayerId(), false)
-            Citizen.Wait(0)
         end
     end
 end)
